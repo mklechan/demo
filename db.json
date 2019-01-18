@@ -1,14 +1,1 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+{"listing":[{"id":"trade-prediction","name":"Trade Prediction","details":"A project for NLP use case in the AWM group. The goal is to predict what trade a client will execute given the financial news articles that they have read on investment page.","notes":"2019-01-19: Checked in a new Python script for munging text\n2019-01-10: Obtained data and stored into S3 at S3://","dataDetails":"The Dataset consists of 10 fields - Date, Article Text, Article Title, Number of Clicks.\nDataset starts in 2002 up to 2018 for 1200 clients, with daily time resolution.","sealId":"77444","env":"development","repo":"git://bitbucket.com/trade_pred1","branch":"branch_trade_pred1","availableAMIs":["AMI1","AMI2"],"availableAMITypes":["p3.xlarge","p2.xlarge","g2.large","g2.medium"],"branches":["trade_pred1","branch-a","branch-b"]},{"id":"stock-suggestion","name":"Stock Suggestion","details":"The goal is to suggest a new stock for a client to buy.","notes":"2019-01-22: Tried a new DL algo","dataDetails":"The Dataset consists of 10 fields - Date, Article Text, Article Title, Number of Clicks.\nDataset starts in 2002 up to 2018 for 1200 clients, with daily time resolution.","sealId":"77444","env":"development","repo":"git://bitbucket.com/trade_pred1","branch":"branch_trade_pred1","availableAMIs":["AMI1","AMI2"],"availableAMITypes":["p3.xlarge","p2.xlarge","g2.large","g2.medium"],"branches":["trade_pred1","branch-a","branch-b"]}]}
